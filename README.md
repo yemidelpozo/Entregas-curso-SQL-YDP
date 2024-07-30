@@ -84,7 +84,7 @@ Ejemplo de consulta:
 <img width="566" alt="image" src="https://github.com/user-attachments/assets/a24bc0c8-3220-4e99-9bd9-dee895bed155">
 
 
-###Vista: CancelacionesPorTipoReserva
+### Vista: CancelacionesPorTipoReserva
 Descripción: Esta vista muestra la cantidad de cancelaciones para cada tipo de reserva.
 Columnas:
 •	Tipo: Tipo de reserva (ej. "Estandar", "Recepción de críticos", etc.)
