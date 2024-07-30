@@ -60,7 +60,9 @@ En resumen, esta base de datos proporciona una estructura para organizar y gesti
 Descripción: Esta vista muestra la cantidad de reservas realizadas en diferentes fechas, como el número total de reservas por día.
 
 Columnas: 
-Fecha: Fecha de la reserva (formato AAAA-MM-DD)
+Fecha:
+
+Fecha de la reserva (formato AAAA-MM-DD)
 
 TotalReservas: Número total de reservas realizadas en la fecha indicada
 Ejemplo de consulta:
