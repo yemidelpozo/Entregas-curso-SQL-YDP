@@ -92,7 +92,7 @@ Columnas:
 
 ## Documentación de Funciones
 
-### Función: Contar_reservas_cliente
+### Función: contar_reservas_cliente
 Descripción: Esta función cuenta la cantidad de reservas realizadas por un cliente en un intervalo de tiempo.
 Parámetros:
 - cliente_id: Identificador único del cliente
