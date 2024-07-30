@@ -64,7 +64,6 @@ Fecha: Fecha de la reserva (formato AAAA-MM-DD)
 TotalReservas: Número total de reservas realizadas en la fecha indicada
 Ejemplo de consulta:
 
-  SELECT * FROM ReservasPorFecha
-  WHERE Fecha BETWEEN '2010-12-01' AND '2023-12-31'
-  ORDER BY Fecha ASC;
+<img width="559" alt="image" src="https://github.com/user-attachments/assets/99d28e96-6ddf-4cbc-a400-6490addf1750">
+
 
