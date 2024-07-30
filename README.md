@@ -73,9 +73,9 @@ Descripción: Esta vista muestra la cantidad de reservas realizadas para cada ac
 
 Columnas:
 
-•	Id_actividad: Identificador de la actividad
-•	Capacidad: Número de personas que pueden realizar la actividad
-•	TotalReservas: Número total de reservas realizadas para la actividad
+- Id_actividad: Identificador de la actividad
+- Capacidad: Número de personas que pueden realizar la actividad
+- TotalReservas: Número total de reservas realizadas para la actividad
 
 Ejemplo de consulta:
 
@@ -85,8 +85,8 @@ Ejemplo de consulta:
 ### Vista: CancelacionesPorTipoReserva
 Descripción: Esta vista muestra la cantidad de cancelaciones para cada tipo de reserva.
 Columnas:
-•	Tipo: Tipo de reserva (ej. "Estandar", "Recepción de críticos", etc.)
-•	TotalCancelaciones: Número total de cancelaciones para el tipo de reserva
+- Tipo: Tipo de reserva (ej. "Estandar", "Recepción de críticos", etc.)
+- TotalCancelaciones: Número total de cancelaciones para el tipo de reserva
 
 <img width="564" alt="image" src="https://github.com/user-attachments/assets/1fd06f2a-9f61-435f-84d6-c833031c017a">
 
