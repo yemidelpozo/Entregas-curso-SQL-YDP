@@ -81,5 +81,5 @@ Capacidad: Número de personas que pueden realizar la actividad
 TotalReservas: Número total de reservas realizadas para la actividad
 Ejemplo de consulta:
 
-SELECT * FROM ReservasPorMesa
-ORDER BY TotalReservas DESC;
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/a24bc0c8-3220-4e99-9bd9-dee895bed155">
+
