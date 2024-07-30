@@ -103,4 +103,5 @@ Retorno:
 Ejemplo de uso:
 
 <img width="558" alt="image" src="https://github.com/user-attachments/assets/31880408-1a6d-49eb-a763-c9a03e317461">
+
 Nota: La función no toma en cuenta las cancelaciones de reservas.
