@@ -114,6 +114,7 @@ Parámetros:
 - fecha_fin: Fecha de fin del intervalo (formato YYYY-MM-DD)
 Retorno:
 - Reservas asociadas al empleado en el período de tiempo especificado
+
 Ejemplo de uso:
 
 <img width="563" alt="image" src="https://github.com/user-attachments/assets/17c64f83-2c8e-496b-bc9d-b865a20da9fb">
