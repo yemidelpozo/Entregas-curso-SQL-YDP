@@ -134,5 +134,5 @@ Ejemplo de uso:
 
 <img width="542" alt="image" src="https://github.com/user-attachments/assets/fe942861-2873-480a-85d6-ae88bac49798">
 
-Nota: La función solo verifica si la mesa está cancelada para alguna reserva. No indica si la mesa está disponible para una nueva reserva en este momento.
+Nota: La función solo verifica si la actividad está cancelada para alguna reserva. No indica si está disponible para una nueva reserva en este momento.
 
