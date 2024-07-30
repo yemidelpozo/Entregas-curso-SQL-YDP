@@ -75,7 +75,9 @@ Descripción: Esta vista muestra la cantidad de reservas realizadas para cada ac
 Columnas:
 
 Id_actividad: Identificador de la actividad
+
 Capacidad: Número de personas que pueden realizar la actividad
+
 TotalReservas: Número total de reservas realizadas para la actividad
 Ejemplo de consulta:
 
