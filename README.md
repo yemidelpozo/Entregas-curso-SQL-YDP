@@ -30,7 +30,7 @@ A continuación, se detallan los elementos principales de la base de datos:
    
 4.	ACTIVIDAD:
 - Almacena información sobre las actividades disponibles.
-- Atributos: Id_actividad, Nombre, Direccion, Telefono.
+- Atributos: Id_actividad, Nombre, Idioma.
   
 5.	RESERVA:
 - Registra las reservas realizadas por los clientes.
