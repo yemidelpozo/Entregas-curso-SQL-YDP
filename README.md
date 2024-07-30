@@ -60,11 +60,10 @@ En resumen, esta base de datos proporciona una estructura para organizar y gesti
 Descripción: Esta vista muestra la cantidad de reservas realizadas en diferentes fechas, como el número total de reservas por día.
 
 Columnas: 
-Fecha:
+•	Fecha:
+•	Fecha de la reserva (formato AAAA-MM-DD)
+•	TotalReservas: Número total de reservas realizadas en la fecha indicada
 
-Fecha de la reserva (formato AAAA-MM-DD)
-
-TotalReservas: Número total de reservas realizadas en la fecha indicada
 Ejemplo de consulta:
 
 <img width="559" alt="image" src="https://github.com/user-attachments/assets/99d28e96-6ddf-4cbc-a400-6490addf1750">
@@ -74,11 +73,10 @@ Descripción: Esta vista muestra la cantidad de reservas realizadas para cada ac
 
 Columnas:
 
-Id_actividad: Identificador de la actividad
+•	Id_actividad: Identificador de la actividad
+•	Capacidad: Número de personas que pueden realizar la actividad
+•	TotalReservas: Número total de reservas realizadas para la actividad
 
-Capacidad: Número de personas que pueden realizar la actividad
-
-TotalReservas: Número total de reservas realizadas para la actividad
 Ejemplo de consulta:
 
 <img width="566" alt="image" src="https://github.com/user-attachments/assets/a24bc0c8-3220-4e99-9bd9-dee895bed155">
