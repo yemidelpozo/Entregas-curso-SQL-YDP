@@ -18,7 +18,7 @@ A continuación, se detallan los elementos principales de la base de datos:
 #### Tablas:
 1.	CLIENTE:
 - Almacena información sobre los clientes que realizan reservas.
-- Atributos: Id_cliente, Nombre, Telefono, Email
+- Atributos: Id_cliente, Nombre, Telefono, Email, Fecha_alta
   
 2.	EMPLEADO:
 - Contiene información sobre los empleados involucrados en el proceso de reservas.
@@ -38,7 +38,7 @@ A continuación, se detallan los elementos principales de la base de datos:
   
 6.	RESERVA:
 - Registra las reservas realizadas por los clientes.
-- Atributos: Id_reserva, Id_cliente, Id_actividad, Id_empleado, Id_tiporeserva, Fecha., Cancelacion
+- Atributos: Id_reserva, Id_cliente, Id_actividad, Id_empleado, Id_tiporeserva, Fecha, Cancelacion, Horario_reserva
 
 ### Resultado problemático:
 Esta base de datos permite gestionar eficientemente el proceso de reserva de las actividades, desde la información de los clientes y empleados hasta la disponibilidad de mesas en su restaurante, y el registro de reservas. 
