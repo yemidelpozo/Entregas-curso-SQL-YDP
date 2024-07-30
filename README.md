@@ -30,7 +30,7 @@ A continuación, se detallan los elementos principales de la base de datos:
    
 4.	ACTIVIDAD:
 - Almacena información sobre las actividades disponibles.
-- Atributos: Id_actividad, Nombre, Idioma.
+- Atributos: Id_actividad, Nombre, Idioma, Capacidad, Disponible
   
 5.	RESERVA:
 - Registra las reservas realizadas por los clientes.
@@ -52,4 +52,5 @@ En resumen, esta base de datos proporciona una estructura para organizar y gesti
 
 ## MODELO DE RESERVAS 
 
-<img width="527" alt="image" src="https://github.com/user-attachments/assets/31163020-e34d-4245-94da-58effba8943e">
+<img width="473" alt="image" src="https://github.com/user-attachments/assets/d74a7115-513d-4512-b035-545835723d6c">
+
