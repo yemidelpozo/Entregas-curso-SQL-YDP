@@ -69,4 +69,15 @@ Ejemplo de consulta:
 
 <img width="559" alt="image" src="https://github.com/user-attachments/assets/99d28e96-6ddf-4cbc-a400-6490addf1750">
 
+### Vista: ReservasPorActividad
+Descripción: Esta vista muestra la cantidad de reservas realizadas para cada actividad, así como la capacidad total de la misma.
 
+Columnas:
+
+Id_actividad: Identificador de la actividad
+Capacidad: Número de personas que pueden realizar la actividad
+TotalReservas: Número total de reservas realizadas para la actividad
+Ejemplo de consulta:
+
+SELECT * FROM ReservasPorMesa
+ORDER BY TotalReservas DESC;
