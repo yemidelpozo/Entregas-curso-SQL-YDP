@@ -54,16 +54,17 @@ En resumen, esta base de datos proporciona una estructura para organizar y gesti
 
 <img width="473" alt="image" src="https://github.com/user-attachments/assets/d74a7115-513d-4512-b035-545835723d6c">
 
-### Documentación de Vistas
+## Documentación de Vistas
 
-## Vista: ReservasPorFecha
+### Vista: ReservasPorFecha
 Descripción: Esta vista muestra la cantidad de reservas realizadas en diferentes fechas, como el número total de reservas por día.
 
-Columnas: Fecha: Fecha de la reserva (formato AAAA-MM-DD)
-          TotalReservas: Número total de reservas realizadas en la fecha indicada
+Columnas: 
+Fecha: Fecha de la reserva (formato AAAA-MM-DD)
+TotalReservas: Número total de reservas realizadas en la fecha indicada
 Ejemplo de consulta:
 
-SELECT * FROM ReservasPorFecha
-WHERE Fecha BETWEEN '2010-12-01' AND '2023-12-31'
-ORDER BY Fecha ASC;
+  SELECT * FROM ReservasPorFecha
+  WHERE Fecha BETWEEN '2010-12-01' AND '2023-12-31'
+  ORDER BY Fecha ASC;
 
