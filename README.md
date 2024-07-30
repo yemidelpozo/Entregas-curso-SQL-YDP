@@ -121,3 +121,18 @@ Ejemplo de uso:
 <img width="563" alt="image" src="https://github.com/user-attachments/assets/17c64f83-2c8e-496b-bc9d-b865a20da9fb">
 
 Nota: La función no toma en cuenta las cancelaciones de reservas.
+
+### Función: actividad_cancelada
+Descripción: Esta función verifica si una actividad está cancelada para una reserva.
+
+Parámetros:
+- actividad_id: Identificador único de la actividad
+Retorno:
+- TRUE si la actividad está cancelada para alguna reserva, FALSE en caso contrario
+
+Ejemplo de uso:
+
+<img width="542" alt="image" src="https://github.com/user-attachments/assets/fe942861-2873-480a-85d6-ae88bac49798">
+
+Nota: La función solo verifica si la mesa está cancelada para alguna reserva. No indica si la mesa está disponible para una nueva reserva en este momento.
+
