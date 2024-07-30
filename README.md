@@ -3,9 +3,9 @@
 ### Problema:
 El equipo de Hospitality de una reconocida bodega de Mendoza necesita un sistema que le permita gestionar las reservas de todas las actividades que ofrecen como experiencia al cliente. Por ello, nuestro equipo tiene el desafío de diseñar una base de datos eficiente que pueda manejar todas las operaciones relacionadas con las reservas de manera óptima.
 Descripción del problema:
-1.	Gestión de Clientes y Empleados : Necesitamos una base de datos que nos permita registrar la información de los clientes que realizan reservas, así como de los empleados involucrados en cada reserva, como mozos, sommeliers, vendedores, encargados de atención al cliente y, en algunos casos, hasta los enólogos o embajadores de marca.
+1.	Gestión de Clientes y Empleados : Necesitamos una base de datos que nos permita registrar la información de los clientes que realizan reservas, así como de los empleados involucrados en cada reserva, como sommeliers, vendedores, encargados de atención al cliente y, en algunos casos, hasta los enólogos o embajadores de marca.
 2.	Gestión de Tipos de Reserva : Es importante poder clasificar las reservas según su tipo, ya sea estándar, reservas de grupos grandes, reservas para atenciones especiales, como recepción de críticos o proveedores o clientes VIP, reservas para empleados de la bodega, etc. 
-3.	Gestión de Disponibilidad : La base de datos debe permitirnos registrar la disponibilidad de mesas en su restaurante, y la disponibilidad de lugares para visitas guiadas y degustaciones; así como gestionar su capacidad y estado (ocupado o disponible). Esto es fundamental para asegurar una correcta atención y evitar conflictos de reservas.
+3.	Gestión de Disponibilidad : La base de datos debe permitirnos registrar la disponibilidad de lugares para visitas guiadas y degustaciones; así como gestionar su capacidad y estado (ocupado o disponible). Esto es fundamental para asegurar una correcta atención y evitar conflictos de reservas.
 4.	Registro de Reservas : Necesitamos un sistema que pueda registrar de manera detallada cada reserva realizada, incluyendo la fecha y hora de la reserva, el cliente que la realizó, la actividad reservada, el empleado que atendió la reserva y el tipo de reserva.
 
 ### Objetivo:
@@ -32,11 +32,7 @@ A continuación, se detallan los elementos principales de la base de datos:
 - Almacena información sobre las actividades disponibles.
 - Atributos: Id_actividad, Nombre, Direccion, Telefono.
   
-5.	MESA_RESTAURANTE:
-- Contiene información sobre las mesas disponibles el restaurante que posee.
-- Atributos: Id_mesa, Id_actividad, Capacidad, Disponible.
-  
-6.	RESERVA:
+5.	RESERVA:
 - Registra las reservas realizadas por los clientes.
 - Atributos: Id_reserva, Id_cliente, Id_actividad, Id_empleado, Id_tiporeserva, Fecha, Cancelacion, Horario_reserva
 
@@ -56,5 +52,4 @@ En resumen, esta base de datos proporciona una estructura para organizar y gesti
 
 ## MODELO DE RESERVAS 
 
-<img width="422" alt="image" src="https://github.com/yemidelpozo/Entregas-curso-SQL-YDP/assets/174274743/0c63dc8e-4a55-4785-933a-b4b36f27ad0a">
-
+<img width="527" alt="image" src="https://github.com/user-attachments/assets/31163020-e34d-4245-94da-58effba8943e">
