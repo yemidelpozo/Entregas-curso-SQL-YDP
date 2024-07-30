@@ -105,3 +105,17 @@ Ejemplo de uso:
 <img width="558" alt="image" src="https://github.com/user-attachments/assets/31880408-1a6d-49eb-a763-c9a03e317461">
 
 Nota: La función no toma en cuenta las cancelaciones de reservas.
+
+### Función: reservas_por_empleado
+Descripción: Esta función cuenta la cantidad de reservas en las que está involucrado un empleado, dentro de un período de tiempo
+Parámetros:
+- empleado_id: Identificador del empleado
+- fecha_inicio: Fecha de inicio del intervalo (formato YYYY-MM-DD)
+- fecha_fin: Fecha de fin del intervalo (formato YYYY-MM-DD)
+Retorno:
+- Reservas asociadas al empleado en el período de tiempo especificado
+Ejemplo de uso:
+
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/17c64f83-2c8e-496b-bc9d-b865a20da9fb">
+
+Nota: La función no toma en cuenta las cancelaciones de reservas.
