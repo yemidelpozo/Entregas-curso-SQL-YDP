@@ -37,18 +37,18 @@ A continuación, se detallan los elementos principales de la base de datos:
 - Atributos: Id_reserva, Id_cliente, Id_actividad, Id_empleado, Id_tiporeserva, Fecha, Cancelacion, Horario_reserva
 
 ### Resultado problemático:
-Esta base de datos permite gestionar eficientemente el proceso de reserva de las actividades, desde la información de los clientes y empleados hasta la disponibilidad de mesas en su restaurante, y el registro de reservas. 
+Esta base de datos permite gestionar eficientemente el proceso de reserva de las actividades, desde la información de los clientes y empleados hasta el registro de reservas. 
 
 Algunos de los aspectos que aborda incluyen:
 •	Registro de clientes y empleados involucrados en el proceso de reserva.
 
 •	Clasificación de las reservas según su tipo.
 
-•	Gestión de la disponibilidad de mesas en su restaurante.
+•	Gestión de la disponibilidad de plazas para actividades.
 
-•	Registro detallado de las reservas realizadas, incluyendo la fecha, cliente, mesa, empleado y tipo de reserva.
+•	Registro detallado de las reservas realizadas, incluyendo la fecha, cliente, empleado y tipo de reserva.
 
-En resumen, esta base de datos proporciona una estructura para organizar y gestionar eficientemente las operaciones de reserva de actividades y restaurante, lo que contribuye a mejorar el servicio ofrecido a los clientes y optimizar sus actividades.
+En resumen, esta base de datos proporciona una estructura para organizar y gestionar eficientemente las operaciones de reserva de actividades, lo que contribuye a mejorar el servicio ofrecido a los clientes y optimizar sus actividades.
 
 ## MODELO DE RESERVAS 
 
