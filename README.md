@@ -90,3 +90,16 @@ Columnas:
 
 <img width="564" alt="image" src="https://github.com/user-attachments/assets/1fd06f2a-9f61-435f-84d6-c833031c017a">
 
+## Documentación de Funciones
+
+### Función: Contar_reservas_cliente
+Descripción: Esta función cuenta la cantidad de reservas realizadas por un cliente en un intervalo de tiempo.
+Parámetros:
+- cliente_id: Identificador único del cliente
+- fecha_inicio: Fecha de inicio del intervalo (formato YYYY-MM-DD)
+- fecha_fin: Fecha de fin del intervalo (formato YYYY-MM-DD)
+Retorno:
+- Número total de reservas realizadas por el cliente en el intervalo de tiempo especificado
+Ejemplo de uso:
+
+<img width="558" alt="image" src="https://github.com/user-attachments/assets/31880408-1a6d-49eb-a763-c9a03e317461">
