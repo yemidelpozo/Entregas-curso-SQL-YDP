@@ -148,7 +148,7 @@ Ejemplo:
 
 Se inserta un nuevo cliente. El trigger registra la acción en la tabla LOG_CAMBIOS con los detalles correspondientes.
 
-###Trigger:after_update_cancelacion_trigger
+### Trigger:after_update_cancelacion_trigger
 Descripción: Este trigger registra la cancelación de una reserva en la tabla LOG_CAMBIOS.
 Detalles:
 - Tabla afectada: RESERVA
