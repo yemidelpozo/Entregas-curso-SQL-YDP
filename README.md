@@ -188,10 +188,35 @@ Descripción: Este procedimiento actualiza una reserva cancelada para un cliente
 Parámetros:
 - p_email: Correo electrónico del cliente
 
-Retorno:
-- Mensaje de éxito o error
+Retorno: Mensaje de éxito o error
 
 Ejemplo de uso:
 CALL actualizar_reserva_cancelada_por_email('ejemplo@correo.com');
+
+### Procedimiento: actualizar_tipo_reserva_por_email
+Descripción: Este procedimiento actualiza el tipo de reserva de la última reserva realizada por un cliente a partir de su correo electrónico.
+
+Parámetros:
+- p_email: Correo electrónico del cliente
+- p_nuevo_tipo: Nuevo tipo de reserva
+
+Retorno: Mensaje de éxito o error
+
+Ejemplo de uso:
+CALL actualizar_tipo_reserva_por_email('ejemplo@correo.com', 'Clientes VIP');
+
+### Procedimiento: crear_empleado
+Descripción: Este procedimiento crea un nuevo empleado en la base de datos.
+
+Parámetros:
+- p_nombre: Nombre del empleado
+- p_telefono: Teléfono del empleado
+- p_correo: Correo electrónico del empleado
+- p_id_actividad: Identificador de la actividad que puede desempeñar el empleado
+
+Retorno: Mensaje de éxito o error
+
+Ejemplo de uso:
+CALL crear_empleado('Emiliano Martinez', '343456789', 'emiliano.martinez@ejemplo.com', 1);
 
 
