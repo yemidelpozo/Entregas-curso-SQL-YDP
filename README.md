@@ -181,4 +181,17 @@ Ejemplo:
 
 Si se intenta reservar una actividad para un cliente que ya tiene una reserva en la misma hora y actividad, el trigger genera un error y la reserva no se realiza.
 
+## Documentación de Procedimientos 
+### Procedimiento: actualizar_reserva_cancelada_por_email
+Descripción: Este procedimiento actualiza una reserva cancelada para un cliente a partir de su correo electrónico.
+
+Parámetros:
+- p_email: Correo electrónico del cliente
+
+Retorno:
+- Mensaje de éxito o error
+
+Ejemplo de uso:
+CALL actualizar_reserva_cancelada_por_email('ejemplo@correo.com');
+
 
