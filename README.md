@@ -137,7 +137,7 @@ Ejemplo de uso:
 Nota: La función solo verifica si la actividad está cancelada para alguna reserva. No indica si está disponible para una nueva reserva en este momento.
 
 ## Documentación de Triggers
-### Trigger: after_insert_trigger
+### Trigger:after_insert_trigger
 Descripción: Este trigger registra la inserción de un nuevo cliente en la tabla LOG_CAMBIOS.
 Detalles:
 - Tabla afectada: CLIENTE
@@ -148,7 +148,7 @@ Ejemplo:
 
 Se inserta un nuevo cliente. El trigger registra la acción en la tabla LOG_CAMBIOS con los detalles correspondientes.
 
-### Trigger: after_update_cancelacion_trigger
+### Trigger:after_update_cancelacion_trigger
 Descripción: Este trigger registra la cancelación de una reserva en la tabla LOG_CAMBIOS.
 Detalles:
 - Tabla afectada: RESERVA
@@ -159,7 +159,7 @@ Ejemplo:
 
 Se actualiza una reserva para indicar su cancelación. Si la cancelación no estaba presente antes, el trigger registra la acción en la tabla LOG_CAMBIOS.
 
-### Trigger: before_insert_cliente_trigger
+### Trigger:before_insert_cliente_trigger
 Descripción: Este trigger verifica si el correo electrónico de un nuevo cliente ya está en uso.
 Detalles:
 - Tabla afectada: CLIENTE
@@ -170,7 +170,7 @@ Ejemplo:
 
 Si se intenta insertar un nuevo cliente con un correo electrónico ya registrado, el trigger genera un error y la inserción no se realiza.
 
-### Trigger: before_insert_reserva_trigger
+### Trigger:before_insert_reserva_trigger
 Descripción: Este trigger verifica si un cliente ya tiene una reserva en la misma hora y mesa.
 Detalles:
 - Tabla afectada: RESERVA
