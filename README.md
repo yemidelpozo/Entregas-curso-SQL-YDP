@@ -145,6 +145,40 @@ Detalles:
 - Información registrada: Fecha, ID del cliente, Usuario
 
 Ejemplo:
-•	Se inserta un nuevo cliente.
-•	El trigger registra la acción en la tabla LOG_CAMBIOS con los detalles correspondientes.
+
+Se inserta un nuevo cliente. El trigger registra la acción en la tabla LOG_CAMBIOS con los detalles correspondientes.
+
+### Trigger: after_update_cancelacion_trigger
+Descripción: Este trigger registra la cancelación de una reserva en la tabla LOG_CAMBIOS.
+Detalles:
+- Tabla afectada: RESERVA
+- Acción: CANCELACION
+- Información registrada: Fecha, ID del cliente (si se conoce), Usuario
+
+Ejemplo:
+
+Se actualiza una reserva para indicar su cancelación. Si la cancelación no estaba presente antes, el trigger registra la acción en la tabla LOG_CAMBIOS.
+
+### Trigger: before_insert_cliente_trigger
+Descripción: Este trigger verifica si el correo electrónico de un nuevo cliente ya está en uso.
+Detalles:
+- Tabla afectada: CLIENTE
+- Acción: INSERT
+- Validación: Correo electrónico único
+
+Ejemplo:
+
+Si se intenta insertar un nuevo cliente con un correo electrónico ya registrado, el trigger genera un error y la inserción no se realiza.
+
+### Trigger: before_insert_reserva_trigger
+Descripción: Este trigger verifica si un cliente ya tiene una reserva en la misma hora y mesa.
+Detalles:
+- Tabla afectada: RESERVA
+- Acción: INSERT
+- Validación: No se permiten reservas duplicadas en la misma hora y actividad para un mismo cliente.
+
+Ejemplo:
+
+Si se intenta reservar una actividad para un cliente que ya tiene una reserva en la misma hora y actividad, el trigger genera un error y la reserva no se realiza.
+
 
