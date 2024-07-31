@@ -136,3 +136,15 @@ Ejemplo de uso:
 
 Nota: La función solo verifica si la actividad está cancelada para alguna reserva. No indica si está disponible para una nueva reserva en este momento.
 
+## Documentación de Triggers
+### Trigger: after_insert_trigger
+Descripción: Este trigger registra la inserción de un nuevo cliente en la tabla LOG_CAMBIOS.
+Detalles:
+- Tabla afectada: CLIENTE
+- Acción: INSERT
+- Información registrada: Fecha, ID del cliente, Usuario
+
+Ejemplo:
+•	Se inserta un nuevo cliente.
+•	El trigger registra la acción en la tabla LOG_CAMBIOS con los detalles correspondientes.
+
